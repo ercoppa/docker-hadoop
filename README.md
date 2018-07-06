@@ -10,14 +10,16 @@ Then start the container with:
 ```
 Start Apache Hadoop with:
 ```
-~/start.sh
+> ./start.sh
 ```
 
 ## Install directly on your host
 The script `install.sh` can be used to install Apache Hadoop 2.7.6 and Apache Pig 0.15 on Ubuntu 16.04. 
 Just run:
-`./install.sh`
+```
+> ./install.sh
+```
 Start Apache Hadoop with:
 ```
-start-all.sh
+> start-all.sh
 ```
